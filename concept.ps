@@ -4106,13 +4106,12 @@ Helvetica 12 SetF
 [ 2 0 0 2 525.5 187 ] concat
 %I
 [
-(create axon)
-(axon {)
-(    nseg = 75)
-(    diam = 100)
-(    L = 20000)
-(    insert hh)
-(})
+(from neuron import h)
+(axon = h.Section())
+(axon.nseg = 75)
+(axon.diam = 100)
+(axon.L = 20000)
+(axon.insert\('hh'\))
 ] Text
 End
 

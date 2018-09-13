@@ -2,7 +2,7 @@
 %%Creator: idraw
 %%DocumentFonts: Times-Bold
 %%Pages: 1
-%%BoundingBox: 42 76 650 556
+%%BoundingBox: 76 76 650 556
 %%EndComments
 
 %%BeginIdrawPrologue
@@ -77,7 +77,7 @@ end
 
 %%EndIdrawPrologue
 
-/arrowHeight 9 def
+/arrowHeight 11 def
 /arrowWidth 5 def
 
 /IdrawDict 51 dict def
@@ -547,87 +547,8 @@ Begin %I Pict
 %I cbg u
 %I f u
 %I p u
-%I t u
-
-Begin %I Pict
-%I b u
-%I cfg u
-%I cbg u
-%I f u
-%I p u
-%I t u
-
-Begin %I Pict
-%I b u
-%I cfg u
-%I cbg u
-%I f u
-%I p u
 %I t
 [ 0.939693 0.34202 -0.34202 0.939693 51.2378 -305.058 ] concat
-
-Begin %I Rect
-%I b 65535
-2 0 0 [] 0 SetB
-%I cfg Black
-0 0 0 SetCFg
-%I cbg White
-1 1 1 SetCBg
-none SetP %I p n
-%I t
-[ 4 0 0 4 58.125 -488 ] concat
-%I
-127 355 279 467 Rect
-End
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
-%I f -*-times-bold-r-normal-*-14-*-*-*-*-*-*-*
-Times-Bold 14 SetF
-%I t
-[ 4 0 0 4 583.5 1043.5 ] concat
-%I
-[
-(Neuron specific syntax)
-] Text
-End
-
-Begin %I Line
-%I b 65535
-2 0 0 [] 0 SetB
-%I cfg Black
-0 0 0 SetCFg
-%I cbg White
-1 1 1 SetCBg
-none SetP %I p n
-%I t
-[ 4 0 0 4 -49 -290 ] concat
-%I
-154 343 306 343 Line
-%I 0.25
-End
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
-%I f -*-times-bold-r-normal-*-14-*-*-*-*-*-*-*
-Times-Bold 14 SetF
-%I t
-[ 6 0 0 6 657.125 1353 ] concat
-%I
-[
-(Interpreter)
-] Text
-End
-
-Begin %I Pict
-%I b u
-%I cfg u
-%I cbg u
-%I f u
-%I p u
-%I t u
 
 Begin %I Pict
 %I b u
@@ -960,13 +881,77 @@ End %I eop
 
 End %I eop
 
+Begin %I Pict
+%I b u
+%I cfg u
+%I cbg u
+%I f u
+%I p u
+%I t
+[ 0.8 0 0 0.8 107.836 193.25 ] concat
+
+Begin %I Rect
+%I b 65535
+2 0 0 [] 0 SetB
+%I cfg Black
+0 0 0 SetCFg
+%I cbg White
+1 1 1 SetCBg
+none SetP %I p n
+%I t
+[ 3.75877 1.36808 -1.36808 3.75877 272.763 -743.748 ] concat
+%I
+127 355 279 467 Rect
+End
+
 Begin %I Text
 %I cfg Black
 0 0 0 SetCFg
 %I f -*-times-bold-r-normal-*-14-*-*-*-*-*-*-*
 Times-Bold 14 SetF
 %I t
-[ 7.2 0 0 7.2 751.925 1258.78 ] concat
+[ 3.75877 1.36808 -1.36808 3.75877 242.651 875.08 ] concat
+%I
+[
+(Neuron specific syntax)
+] Text
+End
+
+Begin %I Line
+%I b 65535
+2 0 0 [] 0 SetB
+%I cfg Black
+0 0 0 SetCFg
+%I cbg White
+1 1 1 SetCBg
+none SetP %I p n
+%I t
+[ 3.75877 1.36808 -1.36808 3.75877 104.379 -594.328 ] concat
+%I
+154 343 306 343 Line
+%I 0.25
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-times-bold-r-normal-*-14-*-*-*-*-*-*-*
+Times-Bold 14 SetF
+%I t
+[ 5.63816 2.05212 -2.05212 5.63816 205.98 1191.1 ] concat
+%I
+[
+(Interpreter)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-times-bold-r-normal-*-14-*-*-*-*-*-*-*
+Times-Bold 14 SetF
+%I t
+[ 6.76579 2.46254 -2.46254 6.76579 327.288 1134.98 ] concat
 %I
 [
 (HOC)
@@ -1366,8 +1351,6 @@ End
 
 End %I eop
 
-End %I eop
-
 Begin %I Pict
 %I b u
 %I cfg u
@@ -1375,7 +1358,7 @@ Begin %I Pict
 %I f u
 %I p u
 %I t
-[ 1 0 0 1 644.516 669.536 ] concat
+[ 1 0 0 1 614.496 669.536 ] concat
 
 Begin %I Rect
 %I b 65535
@@ -1427,8 +1410,6 @@ Begin %I Poly
 142 370
 3 Poly
 End
-
-End %I eop
 
 End %I eop
 
