@@ -1,0 +1,2561 @@
+%!PS-Adobe-2.0 EPSF-1.2
+%%Creator: idraw
+%%DocumentFonts: Times-Roman
+%%Pages: 1
+%%BoundingBox: 38 458 696 547
+%%EndComments
+
+%%BeginIdrawPrologue
+/arrowhead {
+0 begin
+transform originalCTM itransform
+/taily exch def
+/tailx exch def
+transform originalCTM itransform
+/tipy exch def
+/tipx exch def
+/dy tipy taily sub def
+/dx tipx tailx sub def
+/angle dx 0 ne dy 0 ne or { dy dx atan } { 90 } ifelse def
+gsave
+originalCTM setmatrix
+tipx tipy translate
+angle rotate
+newpath
+arrowHeight neg arrowWidth 2 div moveto
+0 0 lineto
+arrowHeight neg arrowWidth 2 div neg lineto
+patternNone not {
+originalCTM setmatrix
+/padtip arrowHeight 2 exp 0.25 arrowWidth 2 exp mul add sqrt brushWidth mul
+arrowWidth div def
+/padtail brushWidth 2 div def
+tipx tipy translate
+angle rotate
+padtip 0 translate
+arrowHeight padtip add padtail add arrowHeight div dup scale
+arrowheadpath
+ifill
+} if
+brushNone not {
+originalCTM setmatrix
+tipx tipy translate
+angle rotate
+arrowheadpath
+istroke
+} if
+grestore
+end
+} dup 0 9 dict put def
+
+/arrowheadpath {
+newpath
+arrowHeight neg arrowWidth 2 div moveto
+0 0 lineto
+arrowHeight neg arrowWidth 2 div neg lineto
+} def
+
+/leftarrow {
+0 begin
+y exch get /taily exch def
+x exch get /tailx exch def
+y exch get /tipy exch def
+x exch get /tipx exch def
+brushLeftArrow { tipx tipy tailx taily arrowhead } if
+end
+} dup 0 4 dict put def
+
+/rightarrow {
+0 begin
+y exch get /tipy exch def
+x exch get /tipx exch def
+y exch get /taily exch def
+x exch get /tailx exch def
+brushRightArrow { tipx tipy tailx taily arrowhead } if
+end
+} dup 0 4 dict put def
+
+%%EndIdrawPrologue
+
+/arrowHeight 10 def
+/arrowWidth 5 def
+
+/IdrawDict 51 dict def
+IdrawDict begin
+
+/reencodeISO {
+dup dup findfont dup length dict begin
+{ 1 index /FID ne { def }{ pop pop } ifelse } forall
+/Encoding ISOLatin1Encoding def
+currentdict end definefont
+} def
+
+/ISOLatin1Encoding [
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/space/exclam/quotedbl/numbersign/dollar/percent/ampersand/quoteright
+/parenleft/parenright/asterisk/plus/comma/minus/period/slash
+/zero/one/two/three/four/five/six/seven/eight/nine/colon/semicolon
+/less/equal/greater/question/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N
+/O/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft/backslash/bracketright
+/asciicircum/underscore/quoteleft/a/b/c/d/e/f/g/h/i/j/k/l/m
+/n/o/p/q/r/s/t/u/v/w/x/y/z/braceleft/bar/braceright/asciitilde
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/dotlessi/grave/acute/circumflex/tilde/macron/breve
+/dotaccent/dieresis/.notdef/ring/cedilla/.notdef/hungarumlaut
+/ogonek/caron/space/exclamdown/cent/sterling/currency/yen/brokenbar
+/section/dieresis/copyright/ordfeminine/guillemotleft/logicalnot
+/hyphen/registered/macron/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/periodcentered/cedilla/onesuperior/ordmasculine
+/guillemotright/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute/Icircumflex
+/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde/Odieresis
+/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute
+/Thorn/germandbls/agrave/aacute/acircumflex/atilde/adieresis
+/aring/ae/ccedilla/egrave/eacute/ecircumflex/edieresis/igrave
+/iacute/icircumflex/idieresis/eth/ntilde/ograve/oacute/ocircumflex
+/otilde/odieresis/divide/oslash/ugrave/uacute/ucircumflex/udieresis
+/yacute/thorn/ydieresis
+] def
+/Times-Roman reencodeISO def
+
+/none null def
+/numGraphicParameters 17 def
+/stringLimit 65535 def
+
+/Begin {
+save
+numGraphicParameters dict begin
+} def
+
+/End {
+end
+restore
+} def
+
+/SetB {
+dup type /nulltype eq {
+pop
+false /brushRightArrow idef
+false /brushLeftArrow idef
+true /brushNone idef
+} {
+/brushDashOffset idef
+/brushDashArray idef
+0 ne /brushRightArrow idef
+0 ne /brushLeftArrow idef
+/brushWidth idef
+false /brushNone idef
+} ifelse
+} def
+
+/SetCFg {
+/fgblue idef
+/fggreen idef
+/fgred idef
+} def
+
+/SetCBg {
+/bgblue idef
+/bggreen idef
+/bgred idef
+} def
+
+/SetF {
+/printSize idef
+/printFont idef
+} def
+
+/SetP {
+dup type /nulltype eq {
+pop true /patternNone idef
+} {
+dup -1 eq {
+/patternGrayLevel idef
+/patternString idef
+} {
+/patternGrayLevel idef
+} ifelse
+false /patternNone idef
+} ifelse
+} def
+
+/BSpl {
+0 begin
+storexyn
+newpath
+n 1 gt {
+0 0 0 0 0 0 1 1 true subspline
+n 2 gt {
+0 0 0 0 1 1 2 2 false subspline
+1 1 n 3 sub {
+/i exch def
+i 1 sub dup i dup i 1 add dup i 2 add dup false subspline
+} for
+n 3 sub dup n 2 sub dup n 1 sub dup 2 copy false subspline
+} if
+n 2 sub dup n 1 sub dup 2 copy 2 copy false subspline
+patternNone not brushLeftArrow not brushRightArrow not and and { ifill } if
+brushNone not { istroke } if
+0 0 1 1 leftarrow
+n 2 sub dup n 1 sub dup rightarrow
+} if
+end
+} dup 0 4 dict put def
+
+/Circ {
+newpath
+0 360 arc
+patternNone not { ifill } if
+brushNone not { istroke } if
+} def
+
+/CBSpl {
+0 begin
+dup 2 gt {
+storexyn
+newpath
+n 1 sub dup 0 0 1 1 2 2 true subspline
+1 1 n 3 sub {
+/i exch def
+i 1 sub dup i dup i 1 add dup i 2 add dup false subspline
+} for
+n 3 sub dup n 2 sub dup n 1 sub dup 0 0 false subspline
+n 2 sub dup n 1 sub dup 0 0 1 1 false subspline
+patternNone not { ifill } if
+brushNone not { istroke } if
+} {
+Poly
+} ifelse
+end
+} dup 0 4 dict put def
+
+/Elli {
+0 begin
+newpath
+4 2 roll
+translate
+scale
+0 0 1 0 360 arc
+patternNone not { ifill } if
+brushNone not { istroke } if
+end
+} dup 0 1 dict put def
+
+/Line {
+0 begin
+2 storexyn
+newpath
+x 0 get y 0 get moveto
+x 1 get y 1 get lineto
+brushNone not { istroke } if
+0 0 1 1 leftarrow
+0 0 1 1 rightarrow
+end
+} dup 0 4 dict put def
+
+/MLine {
+0 begin
+storexyn
+newpath
+n 1 gt {
+x 0 get y 0 get moveto
+1 1 n 1 sub {
+/i exch def
+x i get y i get lineto
+} for
+patternNone not brushLeftArrow not brushRightArrow not and and { ifill } if
+brushNone not { istroke } if
+0 0 1 1 leftarrow
+n 2 sub dup n 1 sub dup rightarrow
+} if
+end
+} dup 0 4 dict put def
+
+/Poly {
+3 1 roll
+newpath
+moveto
+-1 add
+{ lineto } repeat
+closepath
+patternNone not { ifill } if
+brushNone not { istroke } if
+} def
+
+/Rect {
+0 begin
+/t exch def
+/r exch def
+/b exch def
+/l exch def
+newpath
+l b moveto
+l t lineto
+r t lineto
+r b lineto
+closepath
+patternNone not { ifill } if
+brushNone not { istroke } if
+end
+} dup 0 4 dict put def
+
+/Text {
+ishow
+} def
+
+/idef {
+dup where { pop pop pop } { exch def } ifelse
+} def
+
+/ifill {
+0 begin
+gsave
+patternGrayLevel -1 ne {
+fgred bgred fgred sub patternGrayLevel mul add
+fggreen bggreen fggreen sub patternGrayLevel mul add
+fgblue bgblue fgblue sub patternGrayLevel mul add setrgbcolor
+eofill
+} {
+eoclip
+originalCTM setmatrix
+pathbbox /t exch def /r exch def /b exch def /l exch def
+/w r l sub ceiling cvi def
+/h t b sub ceiling cvi def
+/imageByteWidth w 8 div ceiling cvi def
+/imageHeight h def
+bgred bggreen bgblue setrgbcolor
+eofill
+fgred fggreen fgblue setrgbcolor
+w 0 gt h 0 gt and {
+l w add b translate w neg h scale
+w h true [w 0 0 h neg 0 h] { patternproc } imagemask
+} if
+} ifelse
+grestore
+end
+} dup 0 8 dict put def
+
+/istroke {
+gsave
+brushDashOffset -1 eq {
+[] 0 setdash
+1 setgray
+} {
+brushDashArray brushDashOffset setdash
+fgred fggreen fgblue setrgbcolor
+} ifelse
+brushWidth setlinewidth
+originalCTM setmatrix
+stroke
+grestore
+} def
+
+/ishow {
+0 begin
+gsave
+fgred fggreen fgblue setrgbcolor
+/fontDict printFont printSize scalefont dup setfont def
+/descender 0 fontDict /FontBBox get 1 get fontDict /FontMatrix
+get transform exch pop def
+/vertoffset 1 printSize sub descender sub def {
+0 vertoffset moveto show
+/vertoffset vertoffset printSize sub def
+} forall
+grestore
+end
+} dup 0 3 dict put def
+/patternproc {
+0 begin
+/patternByteLength patternString length def
+/patternHeight patternByteLength 8 mul sqrt cvi def
+/patternWidth patternHeight def
+/patternByteWidth patternWidth 8 idiv def
+/imageByteMaxLength imageByteWidth imageHeight mul
+stringLimit patternByteWidth sub min def
+/imageMaxHeight imageByteMaxLength imageByteWidth idiv patternHeight idiv
+patternHeight mul patternHeight max def
+/imageHeight imageHeight imageMaxHeight sub store
+/imageString imageByteWidth imageMaxHeight mul patternByteWidth add string def
+0 1 imageMaxHeight 1 sub {
+/y exch def
+/patternRow y patternByteWidth mul patternByteLength mod def
+/patternRowString patternString patternRow patternByteWidth getinterval def
+/imageRow y imageByteWidth mul def
+0 patternByteWidth imageByteWidth 1 sub {
+/x exch def
+imageString imageRow x add patternRowString putinterval
+} for
+} for
+imageString
+end
+} dup 0 12 dict put def
+
+/min {
+dup 3 2 roll dup 4 3 roll lt { exch } if pop
+} def
+
+/max {
+dup 3 2 roll dup 4 3 roll gt { exch } if pop
+} def
+
+/midpoint {
+0 begin
+/y1 exch def
+/x1 exch def
+/y0 exch def
+/x0 exch def
+x0 x1 add 2 div
+y0 y1 add 2 div
+end
+} dup 0 4 dict put def
+
+/thirdpoint {
+0 begin
+/y1 exch def
+/x1 exch def
+/y0 exch def
+/x0 exch def
+x0 2 mul x1 add 3 div
+y0 2 mul y1 add 3 div
+end
+} dup 0 4 dict put def
+
+/subspline {
+0 begin
+/movetoNeeded exch def
+y exch get /y3 exch def
+x exch get /x3 exch def
+y exch get /y2 exch def
+x exch get /x2 exch def
+y exch get /y1 exch def
+x exch get /x1 exch def
+y exch get /y0 exch def
+x exch get /x0 exch def
+x1 y1 x2 y2 thirdpoint
+/p1y exch def
+/p1x exch def
+x2 y2 x1 y1 thirdpoint
+/p2y exch def
+/p2x exch def
+x1 y1 x0 y0 thirdpoint
+p1x p1y midpoint
+/p0y exch def
+/p0x exch def
+x2 y2 x3 y3 thirdpoint
+p2x p2y midpoint
+/p3y exch def
+/p3x exch def
+movetoNeeded { p0x p0y moveto } if
+p1x p1y p2x p2y p3x p3y curveto
+end
+} dup 0 17 dict put def
+
+/storexyn {
+/n exch def
+/y n array def
+/x n array def
+n 1 sub -1 0 {
+/i exch def
+y i 3 2 roll put
+x i 3 2 roll put
+} for
+} def
+
+/SSten {
+fgred fggreen fgblue setrgbcolor
+dup true exch 1 0 0 -1 0 6 -1 roll matrix astore
+} def
+
+/FSten {
+dup 3 -1 roll dup 4 1 roll exch
+newpath
+0 0 moveto
+dup 0 exch lineto
+exch dup 3 1 roll exch lineto
+0 lineto
+closepath
+bgred bggreen bgblue setrgbcolor
+eofill
+SSten
+} def
+
+/Rast {
+exch dup 3 1 roll 1 0 0 -1 0 6 -1 roll matrix astore
+} def
+
+%%EndProlog
+
+%I Idraw 10 Grid 35.59 35.59 
+
+%%Page: 1 1
+
+Begin
+%I b u
+%I cfg u
+%I cbg u
+%I f u
+%I p u
+%I t
+[ 0.796472 0 0 0.796472 0 0 ] concat
+/originalCTM matrix currentmatrix def
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-times-medium-r-normal-*-14-*-*-*-*-*-*-*
+Times-Roman 14 SetF
+%I t
+[ 3 0 0 3 71 680 ] concat
+%I
+[
+(Using the cell in a network takes three steps. )
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-times-medium-r-normal-*-14-*-*-*-*-*-*-*
+Times-Roman 14 SetF
+%I t
+[ 2 0 0 2 49 635 ] concat
+%I
+[
+(1\) Encapsulate in class so many cells can be created with the same type.)
+(2\) Specify the location of the output spike detector.)
+] Text
+End
+
+End %I eop
+
+
+%%Trailer
+
+end
+%!PS-Adobe-2.0
+%%Creator: InterViews
+%%Pages: atend
+%%EndComments
+save 20 dict begin
+
+/sf {   % scale /fontName => -  (set current font)
+    {findfont} stopped {pop /Courier findfont} if
+    exch scalefont setfont
+} def
+
+/ws {
+    4 index 6 4 roll moveto sub
+    2 index stringwidth pop sub
+    exch div 0 8#40 4 3 roll
+    widthshow
+} def
+
+/as {
+    4 index 6 4 roll moveto sub
+    2 index stringwidth pop sub
+    exch div 0 3 2 roll
+    ashow
+} def
+
+%%EndProlog
+%% NEURON Main Menu
+%% BoundingBox: 1.8 906.12 357.24 984.92
+%% \begin{picture}(355.44, 75.8)
+gsave
+[1 0 0 1 4.8 612.48] concat
+newpath
+0 326.08 moveto
+0 349.44 lineto
+1 349.44 lineto
+1 326.08 lineto
+closepath
+0.0980392 0.0980392 0.0980392 setrgbcolor
+gsave eofill grestore
+newpath
+1 348.44 moveto
+1 349.44 lineto
+349.44 349.44 lineto
+349.44 348.44 lineto
+closepath
+gsave eofill grestore
+newpath
+348.44 327.08 moveto
+348.44 348.44 lineto
+349.44 349.44 lineto
+349.44 326.08 lineto
+0 326.08 lineto
+1 327.08 lineto
+348.44 327.08 lineto
+closepath
+gsave eofill grestore
+newpath
+1 327.08 moveto
+1 348.44 lineto
+348.44 348.44 lineto
+348.44 327.08 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+newpath
+1 327.08 moveto
+1 348.44 lineto
+2 348.44 lineto
+2 327.08 lineto
+closepath
+0.898039 0.898039 0.898039 setrgbcolor
+gsave eofill grestore
+newpath
+2 347.44 moveto
+2 348.44 lineto
+348.44 348.44 lineto
+348.44 347.44 lineto
+closepath
+gsave eofill grestore
+newpath
+347.44 328.08 moveto
+347.44 347.44 lineto
+348.44 348.44 lineto
+348.44 327.08 lineto
+1 327.08 lineto
+2 328.08 lineto
+347.44 328.08 lineto
+closepath
+0.443137 0.443137 0.443137 setrgbcolor
+gsave eofill grestore
+newpath
+2 328.08 moveto
+2 347.44 lineto
+200.88 347.44 lineto
+200.88 328.08 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+14 /Helvetica sf
+8 332.96(Iconify) 7 48.32 as
+newpath
+0 296.72 moveto
+0 326.08 lineto
+349.44 326.08 lineto
+349.44 296.72 lineto
+closepath
+0.807843 0.996078 0.996078 setrgbcolor
+gsave eofill grestore
+newpath
+0 297.72 moveto
+0 326.08 lineto
+1 326.08 lineto
+1 297.72 lineto
+closepath
+0 0 0 setrgbcolor
+gsave eofill grestore
+newpath
+1 325.08 moveto
+1 326.08 lineto
+349.44 326.08 lineto
+349.44 325.08 lineto
+closepath
+gsave eofill grestore
+newpath
+348.44 325.08 moveto
+348.44 296.72 lineto
+349.44 296.72 lineto
+349.44 325.08 lineto
+closepath
+gsave eofill grestore
+newpath
+348.44 297.72 moveto
+348.44 296.72 lineto
+0 296.72 lineto
+0 297.72 lineto
+closepath
+gsave eofill grestore
+newpath
+3 299.72 moveto
+3 323.08 lineto
+4 323.08 lineto
+4 299.72 lineto
+closepath
+0.0980392 0.0980392 0.0980392 setrgbcolor
+gsave eofill grestore
+newpath
+4 322.08 moveto
+4 323.08 lineto
+346.4 323.08 lineto
+346.4 322.08 lineto
+closepath
+gsave eofill grestore
+newpath
+345.4 300.72 moveto
+345.4 322.08 lineto
+346.4 323.08 lineto
+346.4 299.72 lineto
+3 299.72 lineto
+4 300.72 lineto
+345.4 300.72 lineto
+closepath
+gsave eofill grestore
+newpath
+4 300.72 moveto
+4 322.08 lineto
+345.4 322.08 lineto
+345.4 300.72 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+newpath
+4 300.72 moveto
+4 322.08 lineto
+5 322.08 lineto
+5 300.72 lineto
+closepath
+0.898039 0.898039 0.898039 setrgbcolor
+gsave eofill grestore
+newpath
+5 321.08 moveto
+5 322.08 lineto
+345.4 322.08 lineto
+345.4 321.08 lineto
+closepath
+gsave eofill grestore
+newpath
+344.4 301.72 moveto
+344.4 321.08 lineto
+345.4 322.08 lineto
+345.4 300.72 lineto
+4 300.72 lineto
+5 301.72 lineto
+344.4 301.72 lineto
+closepath
+0.443137 0.443137 0.443137 setrgbcolor
+gsave eofill grestore
+newpath
+5 301.72 moveto
+5 321.08 lineto
+40.04 321.08 lineto
+40.04 301.72 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+14 /Helvetica-Bold-Oblique sf
+11 306.6(File) 4 34.04 as
+newpath
+40.04 301.72 moveto
+40.04 321.08 lineto
+77.96 321.08 lineto
+77.96 301.72 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+46.04 306.6(Edit) 4 71.96 as
+newpath
+77.96 301.72 moveto
+77.96 321.08 lineto
+124.52 321.08 lineto
+124.52 301.72 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+83.96 306.6(Build) 5 118.52 as
+newpath
+124.52 301.72 moveto
+124.52 321.08 lineto
+171.08 321.08 lineto
+171.08 301.72 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+130.52 306.6(Tools) 5 165.08 as
+newpath
+171.08 301.72 moveto
+171.08 321.08 lineto
+224.36 321.08 lineto
+224.36 301.72 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+177.08 306.6(Graph) 5 218.36 as
+newpath
+224.36 301.72 moveto
+224.36 321.08 lineto
+279.56 321.08 lineto
+279.56 301.72 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+230.36 306.6(Vector) 6 273.56 as
+newpath
+279.56 301.72 moveto
+279.56 321.08 lineto
+344.36 321.08 lineto
+344.36 301.72 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+285.56 306.6(Window) 6 338.36 as
+newpath
+0 349.44 moveto
+0 369.44 lineto
+349.44 369.44 lineto
+349.44 349.44 lineto
+closepath
+0.8 0.8 0.8 setrgbcolor
+gsave eofill grestore
+gsave
+newpath
+20 349.44 moveto
+20 369.44 lineto
+349.44 369.44 lineto
+349.44 349.44 lineto
+closepath
+eoclip
+0 0 0 setrgbcolor
+14 /Helvetica sf
+109.44 354.32(NEURON Main Menu) 2 240 ws
+grestore
+newpath
+0 293.64 moveto
+0 372.44 lineto
+-3 372.44 lineto
+-3 293.64 lineto
+closepath
+0.698039 0.698039 0.698039 setrgbcolor
+gsave eofill grestore
+newpath
+349.44 293.64 moveto
+349.44 372.44 lineto
+352.44 372.44 lineto
+352.44 293.64 lineto
+closepath
+gsave eofill grestore
+newpath
+0 296.64 moveto
+0 293.64 lineto
+349.44 293.64 lineto
+349.44 296.64 lineto
+closepath
+gsave eofill grestore
+newpath
+0 369.44 moveto
+0 372.44 lineto
+349.44 372.44 lineto
+349.44 369.44 lineto
+closepath
+gsave eofill grestore
+newpath
+-3 293.64 moveto
+-3 372.44 lineto
+352.44 372.44 lineto
+352.44 293.64 lineto
+closepath
+0.101961 0.101961 0.101961 setrgbcolor
+1 setlinewidth
+[] 0 setdash
+gsave stroke grestore
+newpath
+0 351.44 moveto
+0 369.44 lineto
+18 369.44 lineto
+18 351.44 lineto
+closepath
+0.898039 0.898039 0.898039 setrgbcolor
+gsave stroke grestore
+newpath
+4 355.44 moveto
+14 365.44 lineto
+gsave stroke grestore
+newpath
+4 365.44 moveto
+14 355.44 lineto
+gsave stroke grestore
+grestore
+%% End BoundingBox
+%% CellBuild[0]
+%% BoundingBox: 5.64 7.56 711.48 408.92
+%% \begin{picture}(705.84, 398.36)
+gsave
+[1 0 0 1 8.64 -313.92] concat
+gsave
+gsave
+[0.616667 0 0 0.616667 150 488.104] concat
+grestore
+grestore
+newpath
+0 676.48 moveto
+0 699.84 lineto
+1 699.84 lineto
+1 676.48 lineto
+closepath
+0.0980392 0.0980392 0.0980392 setrgbcolor
+gsave eofill grestore
+newpath
+1 698.84 moveto
+1 699.84 lineto
+699.84 699.84 lineto
+699.84 698.84 lineto
+closepath
+gsave eofill grestore
+newpath
+698.84 677.48 moveto
+698.84 698.84 lineto
+699.84 699.84 lineto
+699.84 676.48 lineto
+0 676.48 lineto
+1 677.48 lineto
+698.84 677.48 lineto
+closepath
+gsave eofill grestore
+newpath
+1 677.48 moveto
+1 698.84 lineto
+698.84 698.84 lineto
+698.84 677.48 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+newpath
+1 677.48 moveto
+1 698.84 lineto
+2 698.84 lineto
+2 677.48 lineto
+closepath
+0.898039 0.898039 0.898039 setrgbcolor
+gsave eofill grestore
+newpath
+2 697.84 moveto
+2 698.84 lineto
+698.84 698.84 lineto
+698.84 697.84 lineto
+closepath
+gsave eofill grestore
+newpath
+697.84 678.48 moveto
+697.84 697.84 lineto
+698.84 698.84 lineto
+698.84 677.48 lineto
+1 677.48 lineto
+2 678.48 lineto
+697.84 678.48 lineto
+closepath
+0.443137 0.443137 0.443137 setrgbcolor
+gsave eofill grestore
+newpath
+2 678.48 moveto
+2 697.84 lineto
+252.347 697.84 lineto
+252.347 678.48 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+14 /Helvetica sf
+8 683.36(Close) 5 43.52 as
+newpath
+252.347 678.48 moveto
+252.347 697.84 lineto
+495.013 697.84 lineto
+495.013 678.48 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+258.347 683.36(Hide) 4 286.187 as
+newpath
+0 324.48 moveto
+0 676.48 lineto
+699.84 676.48 lineto
+699.84 324.48 lineto
+closepath
+0.807843 0.996078 0.996078 setrgbcolor
+gsave eofill grestore
+newpath
+0 651.728 moveto
+0 676.48 lineto
+699.84 676.48 lineto
+699.84 651.728 lineto
+closepath
+gsave eofill grestore
+newpath
+0 652.728 moveto
+0 676.48 lineto
+1 676.48 lineto
+1 652.728 lineto
+closepath
+0 0 0 setrgbcolor
+gsave eofill grestore
+newpath
+1 675.48 moveto
+1 676.48 lineto
+699.84 676.48 lineto
+699.84 675.48 lineto
+closepath
+gsave eofill grestore
+newpath
+698.84 675.48 moveto
+698.84 651.728 lineto
+699.84 651.728 lineto
+699.84 675.48 lineto
+closepath
+gsave eofill grestore
+newpath
+698.84 652.728 moveto
+698.84 651.728 lineto
+0 651.728 lineto
+0 652.728 lineto
+closepath
+gsave eofill grestore
+newpath
+3 664.104 moveto
+10.488 671.592 lineto
+17.976 664.104 lineto
+10.488 656.616 lineto
+closepath
+0.898039 0.898039 0.898039 setrgbcolor
+gsave eofill grestore
+newpath
+3 664.104 moveto
+10.488 656.616 lineto
+17.976 664.104 lineto
+15.976 664.104 lineto
+10.488 658.616 lineto
+5 664.104 lineto
+closepath
+0.333333 0.333333 0.333333 setrgbcolor
+gsave eofill grestore
+newpath
+3 664.104 moveto
+10.488 671.592 lineto
+17.976 664.104 lineto
+15.976 664.104 lineto
+10.488 669.592 lineto
+5 664.104 lineto
+closepath
+0.815686 0.815686 0.815686 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+23.976 659.304(About   ) 3 72.936 ws
+newpath
+72.936 664.104 moveto
+80.424 671.592 lineto
+87.912 664.104 lineto
+80.424 656.616 lineto
+closepath
+0.898039 0.898039 0.898039 setrgbcolor
+gsave eofill grestore
+newpath
+72.936 664.104 moveto
+80.424 656.616 lineto
+87.912 664.104 lineto
+85.912 664.104 lineto
+80.424 658.616 lineto
+74.936 664.104 lineto
+closepath
+0.333333 0.333333 0.333333 setrgbcolor
+gsave eofill grestore
+newpath
+72.936 664.104 moveto
+80.424 671.592 lineto
+87.912 664.104 lineto
+85.912 664.104 lineto
+80.424 669.592 lineto
+74.936 664.104 lineto
+closepath
+0.815686 0.815686 0.815686 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+93.912 659.304(Topology   ) 3 162.072 ws
+newpath
+162.072 664.104 moveto
+169.56 671.592 lineto
+177.048 664.104 lineto
+169.56 656.616 lineto
+closepath
+0.898039 0.898039 0.898039 setrgbcolor
+gsave eofill grestore
+newpath
+162.072 664.104 moveto
+169.56 656.616 lineto
+177.048 664.104 lineto
+175.048 664.104 lineto
+169.56 658.616 lineto
+164.072 664.104 lineto
+closepath
+0.333333 0.333333 0.333333 setrgbcolor
+gsave eofill grestore
+newpath
+162.072 664.104 moveto
+169.56 671.592 lineto
+177.048 664.104 lineto
+175.048 664.104 lineto
+169.56 669.592 lineto
+164.072 664.104 lineto
+closepath
+0.815686 0.815686 0.815686 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+183.048 659.304(Subsets   ) 3 245.448 ws
+newpath
+245.448 664.104 moveto
+252.936 671.592 lineto
+260.424 664.104 lineto
+252.936 656.616 lineto
+closepath
+0.898039 0.898039 0.898039 setrgbcolor
+gsave eofill grestore
+newpath
+245.448 664.104 moveto
+252.936 656.616 lineto
+260.424 664.104 lineto
+258.424 664.104 lineto
+252.936 658.616 lineto
+247.448 664.104 lineto
+closepath
+0.333333 0.333333 0.333333 setrgbcolor
+gsave eofill grestore
+newpath
+245.448 664.104 moveto
+252.936 671.592 lineto
+260.424 664.104 lineto
+258.424 664.104 lineto
+252.936 669.592 lineto
+247.448 664.104 lineto
+closepath
+0.815686 0.815686 0.815686 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+266.424 659.304(Geometry   ) 3 337.464 ws
+newpath
+337.464 664.104 moveto
+344.952 671.592 lineto
+352.44 664.104 lineto
+344.952 656.616 lineto
+closepath
+0.898039 0.898039 0.898039 setrgbcolor
+gsave eofill grestore
+newpath
+337.464 664.104 moveto
+344.952 656.616 lineto
+352.44 664.104 lineto
+350.44 664.104 lineto
+344.952 658.616 lineto
+339.464 664.104 lineto
+closepath
+0.333333 0.333333 0.333333 setrgbcolor
+gsave eofill grestore
+newpath
+337.464 664.104 moveto
+344.952 671.592 lineto
+352.44 664.104 lineto
+350.44 664.104 lineto
+344.952 669.592 lineto
+339.464 664.104 lineto
+closepath
+0.815686 0.815686 0.815686 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+358.44 659.304(Biophysics   ) 3 437.16 ws
+newpath
+437.16 664.104 moveto
+444.648 671.592 lineto
+452.136 664.104 lineto
+444.648 656.616 lineto
+closepath
+0.0980392 0.0980392 0.0980392 setrgbcolor
+gsave eofill grestore
+newpath
+437.16 664.104 moveto
+444.648 656.616 lineto
+452.136 664.104 lineto
+450.136 664.104 lineto
+444.648 658.616 lineto
+439.16 664.104 lineto
+closepath
+0.815686 0.815686 0.815686 setrgbcolor
+gsave eofill grestore
+newpath
+437.16 664.104 moveto
+444.648 671.592 lineto
+452.136 664.104 lineto
+450.136 664.104 lineto
+444.648 669.592 lineto
+439.16 664.104 lineto
+closepath
+0.333333 0.333333 0.333333 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+458.136 659.304(Management   ) 3 550.296 ws
+newpath
+550.296 654.728 moveto
+550.296 673.48 lineto
+551.296 673.48 lineto
+551.296 654.728 lineto
+closepath
+0.333333 0.333333 0.333333 setrgbcolor
+gsave eofill grestore
+newpath
+551.296 672.48 moveto
+551.296 673.48 lineto
+569.048 673.48 lineto
+569.048 672.48 lineto
+closepath
+gsave eofill grestore
+newpath
+568.048 655.728 moveto
+568.048 672.48 lineto
+569.048 673.48 lineto
+569.048 654.728 lineto
+550.296 654.728 lineto
+551.296 655.728 lineto
+568.048 655.728 lineto
+closepath
+0.223529 0.223529 0.223529 setrgbcolor
+gsave eofill grestore
+newpath
+551.296 655.728 moveto
+551.296 672.48 lineto
+552.296 672.48 lineto
+552.296 655.728 lineto
+closepath
+0.898039 0.898039 0.898039 setrgbcolor
+gsave eofill grestore
+newpath
+552.296 671.48 moveto
+552.296 672.48 lineto
+568.048 672.48 lineto
+568.048 671.48 lineto
+closepath
+gsave eofill grestore
+newpath
+567.048 656.728 moveto
+567.048 671.48 lineto
+568.048 672.48 lineto
+568.048 655.728 lineto
+551.296 655.728 lineto
+552.296 656.728 lineto
+567.048 656.728 lineto
+closepath
+0.333333 0.333333 0.333333 setrgbcolor
+gsave eofill grestore
+newpath
+552.296 656.728 moveto
+552.296 671.48 lineto
+567.048 671.48 lineto
+567.048 656.728 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+newpath
+552.296 656.728 moveto
+552.296 671.48 lineto
+554.296 671.48 lineto
+554.296 656.728 lineto
+closepath
+0.815686 0.815686 0.815686 setrgbcolor
+gsave eofill grestore
+newpath
+554.296 669.48 moveto
+554.296 671.48 lineto
+567.048 671.48 lineto
+567.048 669.48 lineto
+closepath
+gsave eofill grestore
+newpath
+565.048 658.728 moveto
+565.048 669.48 lineto
+567.048 671.48 lineto
+567.048 656.728 lineto
+552.296 656.728 lineto
+554.296 658.728 lineto
+565.048 658.728 lineto
+closepath
+0.443137 0.443137 0.443137 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+575.048 659.304(Continuous Create) 1 690.248 ws
+newpath
+0 324.48 moveto
+0 651.728 lineto
+699.84 651.728 lineto
+699.84 324.48 lineto
+closepath
+0.807843 0.996078 0.996078 setrgbcolor
+gsave eofill grestore
+newpath
+0 324.48 moveto
+0 651.728 lineto
+699.84 651.728 lineto
+699.84 324.48 lineto
+closepath
+gsave eofill grestore
+newpath
+0 324.48 moveto
+0 651.728 lineto
+300 651.728 lineto
+300 324.48 lineto
+closepath
+gsave eofill grestore
+newpath
+0 324.48 moveto
+0 651.728 lineto
+1 651.728 lineto
+1 324.48 lineto
+closepath
+0.333333 0.333333 0.333333 setrgbcolor
+gsave eofill grestore
+newpath
+1 650.728 moveto
+1 651.728 lineto
+300 651.728 lineto
+300 650.728 lineto
+closepath
+gsave eofill grestore
+newpath
+299 325.48 moveto
+299 650.728 lineto
+300 651.728 lineto
+300 324.48 lineto
+0 324.48 lineto
+1 325.48 lineto
+299 325.48 lineto
+closepath
+0.898039 0.898039 0.898039 setrgbcolor
+gsave eofill grestore
+newpath
+1 325.48 moveto
+1 650.728 lineto
+299 650.728 lineto
+299 325.48 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+newpath
+1 325.48 moveto
+1 650.728 lineto
+2 650.728 lineto
+2 325.48 lineto
+closepath
+0.223529 0.223529 0.223529 setrgbcolor
+gsave eofill grestore
+newpath
+2 649.728 moveto
+2 650.728 lineto
+299 650.728 lineto
+299 649.728 lineto
+closepath
+gsave eofill grestore
+newpath
+298 326.48 moveto
+298 649.728 lineto
+299 650.728 lineto
+299 325.48 lineto
+1 325.48 lineto
+2 326.48 lineto
+298 326.48 lineto
+closepath
+0.815686 0.815686 0.815686 setrgbcolor
+gsave eofill grestore
+gsave
+[0.616667 0 0 0.616667 150 488.104] concat
+gsave
+newpath
+-240 -262.081 moveto
+-240 262.081 lineto
+240 262.081 lineto
+240 -262.081 lineto
+closepath
+eoclip
+%% 
+1.62162 setlinewidth
+newpath
+-240 -262.081 moveto
+-240 262.081 lineto
+240 262.081 lineto
+240 -262.081 lineto
+closepath
+0.996078 0.996078 0.996078 setrgbcolor
+gsave eofill grestore
+newpath
+-240 -262.081 moveto
+-240 262.081 lineto
+240 262.081 lineto
+240 -262.081 lineto
+closepath
+gsave eofill grestore
+newpath
+7.5 7.5 moveto
+9.81763 7.13292 lineto
+11.9084 6.06763 lineto
+13.5676 4.40839 lineto
+14.6329 2.31763 lineto
+15 4.59227e-16 lineto
+14.6329 -2.31763 lineto
+13.5676 -4.40839 lineto
+11.9084 -6.06763 lineto
+9.81763 -7.13292 lineto
+7.5 -7.5 lineto
+5.18237 -7.13292 lineto
+3.09161 -6.06763 lineto
+1.43237 -4.40839 lineto
+0.367076 -2.31763 lineto
+0 -1.37768e-15 lineto
+0.367076 2.31763 lineto
+1.43237 4.40839 lineto
+3.09161 6.06763 lineto
+5.18237 7.13292 lineto
+7.5 7.5 lineto
+gsave
+[1.62162 0 0 1.62155 -243.243 -791.484] concat
+0 0 0 setrgbcolor
+2 setlinewidth
+[] 0 setdash
+gsave stroke grestore
+grestore
+newpath
+15 0 moveto
+105 0 lineto
+gsave
+[1.62162 0 0 1.62155 -243.243 -791.484] concat
+0 0 0 setrgbcolor
+2 setlinewidth
+[] 0 setdash
+gsave stroke grestore
+grestore
+newpath
+105 0 moveto
+165 45 lineto
+gsave
+[1.62162 0 0 1.62155 -243.243 -791.484] concat
+0 0 0 setrgbcolor
+2 setlinewidth
+[] 0 setdash
+gsave stroke grestore
+grestore
+newpath
+105 0 moveto
+165 -45 lineto
+gsave
+[1.62162 0 0 1.62155 -243.243 -791.484] concat
+0 0 0 setrgbcolor
+2 setlinewidth
+[] 0 setdash
+gsave stroke grestore
+grestore
+newpath
+15 0 moveto
+45 60 lineto
+gsave
+[1.62162 0 0 1.62155 -243.243 -791.484] concat
+0 0 0 setrgbcolor
+2 setlinewidth
+[] 0 setdash
+gsave stroke grestore
+grestore
+newpath
+0 0 moveto
+-105 -30 lineto
+gsave
+[1.62162 0 0 1.62155 -243.243 -791.484] concat
+1 0 0 setrgbcolor
+2 setlinewidth
+[] 0 setdash
+gsave stroke grestore
+grestore
+gsave
+[1.62162 0 0 1.62155 -243.243 -791.484] concat
+gsave
+[1 0 0 1 140.196 470.875] concat
+0 0 0 setrgbcolor
+0 0(soma) 4 33.6 as
+grestore
+gsave
+[1 0 0 1 176.018 474.074] concat
+0 0 0 setrgbcolor
+0 0(dend) 4 30.72 as
+grestore
+gsave
+[1 0 0 1 216.312 521.25] concat
+0 0 0 setrgbcolor
+0 0(dend[1]) 7 46.08 as
+grestore
+gsave
+[1 0 0 1 211.514 444.488] concat
+0 0 0 setrgbcolor
+0 0(dend[2]) 7 46.08 as
+grestore
+gsave
+[1 0 0 1 141.152 530.846] concat
+0 0 0 setrgbcolor
+0 0(dend[3]) 7 46.08 as
+grestore
+gsave
+[1 0 0 1 91.7434 458.881] concat
+1 0 0 setrgbcolor
+0 0(axon) 4 29.76 as
+grestore
+grestore
+grestore
+grestore
+newpath
+310 324.48 moveto
+310 651.728 lineto
+699.84 651.728 lineto
+699.84 324.48 lineto
+closepath
+0.807843 0.996078 0.996078 setrgbcolor
+gsave eofill grestore
+newpath
+310 324.48 moveto
+310 651.728 lineto
+699.84 651.728 lineto
+699.84 324.48 lineto
+closepath
+gsave eofill grestore
+newpath
+310 324.48 moveto
+310 651.728 lineto
+699.84 651.728 lineto
+699.84 324.48 lineto
+closepath
+gsave eofill grestore
+newpath
+310 615.818 moveto
+310 651.728 lineto
+699.84 651.728 lineto
+699.84 615.818 lineto
+closepath
+gsave eofill grestore
+newpath
+310 616.818 moveto
+310 651.728 lineto
+311 651.728 lineto
+311 616.818 lineto
+closepath
+0 0 0 setrgbcolor
+gsave eofill grestore
+newpath
+311 650.728 moveto
+311 651.728 lineto
+699.84 651.728 lineto
+699.84 650.728 lineto
+closepath
+gsave eofill grestore
+newpath
+698.84 650.728 moveto
+698.84 615.818 lineto
+699.84 615.818 lineto
+699.84 650.728 lineto
+closepath
+gsave eofill grestore
+newpath
+698.84 616.818 moveto
+698.84 615.818 lineto
+310 615.818 lineto
+310 616.818 lineto
+closepath
+gsave eofill grestore
+newpath
+313 626.498 moveto
+320.488 633.986 lineto
+327.976 626.498 lineto
+320.488 619.01 lineto
+closepath
+0.0980392 0.0980392 0.0980392 setrgbcolor
+gsave eofill grestore
+newpath
+313 626.498 moveto
+320.488 619.01 lineto
+327.976 626.498 lineto
+325.976 626.498 lineto
+320.488 621.01 lineto
+315 626.498 lineto
+closepath
+0.815686 0.815686 0.815686 setrgbcolor
+gsave eofill grestore
+newpath
+313 626.498 moveto
+320.488 633.986 lineto
+327.976 626.498 lineto
+325.976 626.498 lineto
+320.488 631.986 lineto
+315 626.498 lineto
+closepath
+0.333333 0.333333 0.333333 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+333.976 621.698(Cell Type   ) 4 403.096 ws
+newpath
+403.096 626.498 moveto
+410.584 633.986 lineto
+418.072 626.498 lineto
+410.584 619.01 lineto
+closepath
+0.898039 0.898039 0.898039 setrgbcolor
+gsave eofill grestore
+newpath
+403.096 626.498 moveto
+410.584 619.01 lineto
+418.072 626.498 lineto
+416.072 626.498 lineto
+410.584 621.01 lineto
+405.096 626.498 lineto
+closepath
+0.333333 0.333333 0.333333 setrgbcolor
+gsave eofill grestore
+newpath
+403.096 626.498 moveto
+410.584 633.986 lineto
+418.072 626.498 lineto
+416.072 626.498 lineto
+410.584 631.986 lineto
+405.096 626.498 lineto
+closepath
+0.815686 0.815686 0.815686 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+424.072 621.698(Export   ) 3 474.952 ws
+newpath
+474.952 626.498 moveto
+482.44 633.986 lineto
+489.928 626.498 lineto
+482.44 619.01 lineto
+closepath
+0.898039 0.898039 0.898039 setrgbcolor
+gsave eofill grestore
+newpath
+474.952 626.498 moveto
+482.44 619.01 lineto
+489.928 626.498 lineto
+487.928 626.498 lineto
+482.44 621.01 lineto
+476.952 626.498 lineto
+closepath
+0.333333 0.333333 0.333333 setrgbcolor
+gsave eofill grestore
+newpath
+474.952 626.498 moveto
+482.44 633.986 lineto
+489.928 626.498 lineto
+487.928 626.498 lineto
+482.44 631.986 lineto
+476.952 626.498 lineto
+closepath
+0.815686 0.815686 0.815686 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+495.928 621.698(Import      ) 6 558.328 ws
+newpath
+558.328 621.368 moveto
+558.328 648.728 lineto
+559.328 648.728 lineto
+559.328 621.368 lineto
+closepath
+0.333333 0.333333 0.333333 setrgbcolor
+gsave eofill grestore
+newpath
+559.328 647.728 moveto
+559.328 648.728 lineto
+630.328 648.728 lineto
+630.328 647.728 lineto
+closepath
+gsave eofill grestore
+newpath
+629.328 622.368 moveto
+629.328 647.728 lineto
+630.328 648.728 lineto
+630.328 621.368 lineto
+558.328 621.368 lineto
+559.328 622.368 lineto
+629.328 622.368 lineto
+closepath
+0.223529 0.223529 0.223529 setrgbcolor
+gsave eofill grestore
+newpath
+559.328 622.368 moveto
+559.328 647.728 lineto
+560.328 647.728 lineto
+560.328 622.368 lineto
+closepath
+0.898039 0.898039 0.898039 setrgbcolor
+gsave eofill grestore
+newpath
+560.328 646.728 moveto
+560.328 647.728 lineto
+629.328 647.728 lineto
+629.328 646.728 lineto
+closepath
+gsave eofill grestore
+newpath
+628.328 623.368 moveto
+628.328 646.728 lineto
+629.328 647.728 lineto
+629.328 622.368 lineto
+559.328 622.368 lineto
+560.328 623.368 lineto
+628.328 623.368 lineto
+closepath
+0.333333 0.333333 0.333333 setrgbcolor
+gsave eofill grestore
+newpath
+560.328 623.368 moveto
+560.328 646.728 lineto
+628.328 646.728 lineto
+628.328 623.368 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+newpath
+560.328 623.368 moveto
+560.328 646.728 lineto
+562.328 646.728 lineto
+562.328 623.368 lineto
+closepath
+0.815686 0.815686 0.815686 setrgbcolor
+gsave eofill grestore
+newpath
+562.328 644.728 moveto
+562.328 646.728 lineto
+628.328 646.728 lineto
+628.328 644.728 lineto
+closepath
+gsave eofill grestore
+newpath
+626.328 625.368 moveto
+626.328 644.728 lineto
+628.328 646.728 lineto
+628.328 623.368 lineto
+560.328 623.368 lineto
+562.328 625.368 lineto
+626.328 625.368 lineto
+closepath
+0.443137 0.443137 0.443137 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+578.488 630.248(Hints) 5 610.168 as
+newpath
+310 324.48 moveto
+310 615.818 lineto
+699.84 615.818 lineto
+699.84 324.48 lineto
+closepath
+0.807843 0.996078 0.996078 setrgbcolor
+gsave eofill grestore
+newpath
+310 324.48 moveto
+310 615.818 lineto
+699.84 615.818 lineto
+699.84 324.48 lineto
+closepath
+gsave eofill grestore
+newpath
+310 325.48 moveto
+310 615.818 lineto
+311 615.818 lineto
+311 325.48 lineto
+closepath
+0 0 0 setrgbcolor
+gsave eofill grestore
+newpath
+311 614.818 moveto
+311 615.818 lineto
+699.84 615.818 lineto
+699.84 614.818 lineto
+closepath
+gsave eofill grestore
+newpath
+698.84 614.818 moveto
+698.84 324.48 lineto
+699.84 324.48 lineto
+699.84 614.818 lineto
+closepath
+gsave eofill grestore
+newpath
+698.84 325.48 moveto
+698.84 324.48 lineto
+310 324.48 lineto
+310 325.48 lineto
+closepath
+gsave eofill grestore
+316 597.338(This is necessary only if the cell is used in a network) 11 639.52 ws
+316 554.618(This creates a file that declares a cell type) 8 576.16 ws
+316 533.258(   with the current specification) 6 503.2 ws
+316 511.898(Such a cell class is usable in networks and) 8 581.92 ws
+316 490.538(  can be employed by the network builder tool.) 9 595.36 ws
+newpath
+313 457.298 moveto
+313 484.658 lineto
+314 484.658 lineto
+314 457.298 lineto
+closepath
+0.333333 0.333333 0.333333 setrgbcolor
+gsave eofill grestore
+newpath
+314 483.658 moveto
+314 484.658 lineto
+394.12 484.658 lineto
+394.12 483.658 lineto
+closepath
+gsave eofill grestore
+newpath
+393.12 458.298 moveto
+393.12 483.658 lineto
+394.12 484.658 lineto
+394.12 457.298 lineto
+313 457.298 lineto
+314 458.298 lineto
+393.12 458.298 lineto
+closepath
+0.223529 0.223529 0.223529 setrgbcolor
+gsave eofill grestore
+newpath
+314 458.298 moveto
+314 483.658 lineto
+315 483.658 lineto
+315 458.298 lineto
+closepath
+0.898039 0.898039 0.898039 setrgbcolor
+gsave eofill grestore
+newpath
+315 482.658 moveto
+315 483.658 lineto
+393.12 483.658 lineto
+393.12 482.658 lineto
+closepath
+gsave eofill grestore
+newpath
+392.12 459.298 moveto
+392.12 482.658 lineto
+393.12 483.658 lineto
+393.12 458.298 lineto
+314 458.298 lineto
+315 459.298 lineto
+392.12 459.298 lineto
+closepath
+0.333333 0.333333 0.333333 setrgbcolor
+gsave eofill grestore
+newpath
+315 459.298 moveto
+315 482.658 lineto
+392.12 482.658 lineto
+392.12 459.298 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+newpath
+315 459.298 moveto
+315 482.658 lineto
+317 482.658 lineto
+317 459.298 lineto
+closepath
+0.815686 0.815686 0.815686 setrgbcolor
+gsave eofill grestore
+newpath
+317 480.658 moveto
+317 482.658 lineto
+392.12 482.658 lineto
+392.12 480.658 lineto
+closepath
+gsave eofill grestore
+newpath
+390.12 461.298 moveto
+390.12 480.658 lineto
+392.12 482.658 lineto
+392.12 459.298 lineto
+315 459.298 lineto
+317 461.298 lineto
+390.12 461.298 lineto
+closepath
+0.443137 0.443137 0.443137 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+319 466.178(Classname) 9 388.12 as
+316 441.818(Pyramid) 7 364.96 as
+newpath
+313 406.898 moveto
+320.488 414.386 lineto
+327.976 406.898 lineto
+320.488 399.41 lineto
+closepath
+0.0980392 0.0980392 0.0980392 setrgbcolor
+gsave eofill grestore
+newpath
+313 406.898 moveto
+320.488 399.41 lineto
+327.976 406.898 lineto
+325.976 406.898 lineto
+320.488 401.41 lineto
+315 406.898 lineto
+closepath
+0.815686 0.815686 0.815686 setrgbcolor
+gsave eofill grestore
+newpath
+313 406.898 moveto
+320.488 414.386 lineto
+327.976 406.898 lineto
+325.976 406.898 lineto
+320.488 412.386 lineto
+315 406.898 lineto
+closepath
+0.333333 0.333333 0.333333 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+333.976 402.098(Select Output) 1 417.496 ws
+316 383.738(axon.v\(1\)) 9 373.6 as
+newpath
+313 329.138 moveto
+313 356.498 lineto
+314 356.498 lineto
+314 329.138 lineto
+closepath
+0.333333 0.333333 0.333333 setrgbcolor
+gsave eofill grestore
+newpath
+314 355.498 moveto
+314 356.498 lineto
+452.68 356.498 lineto
+452.68 355.498 lineto
+closepath
+gsave eofill grestore
+newpath
+451.68 330.138 moveto
+451.68 355.498 lineto
+452.68 356.498 lineto
+452.68 329.138 lineto
+313 329.138 lineto
+314 330.138 lineto
+451.68 330.138 lineto
+closepath
+0.223529 0.223529 0.223529 setrgbcolor
+gsave eofill grestore
+newpath
+314 330.138 moveto
+314 355.498 lineto
+315 355.498 lineto
+315 330.138 lineto
+closepath
+0.898039 0.898039 0.898039 setrgbcolor
+gsave eofill grestore
+newpath
+315 354.498 moveto
+315 355.498 lineto
+451.68 355.498 lineto
+451.68 354.498 lineto
+closepath
+gsave eofill grestore
+newpath
+450.68 331.138 moveto
+450.68 354.498 lineto
+451.68 355.498 lineto
+451.68 330.138 lineto
+314 330.138 lineto
+315 331.138 lineto
+450.68 331.138 lineto
+closepath
+0.333333 0.333333 0.333333 setrgbcolor
+gsave eofill grestore
+newpath
+315 331.138 moveto
+315 354.498 lineto
+450.68 354.498 lineto
+450.68 331.138 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+newpath
+315 331.138 moveto
+315 354.498 lineto
+317 354.498 lineto
+317 331.138 lineto
+closepath
+0.815686 0.815686 0.815686 setrgbcolor
+gsave eofill grestore
+newpath
+317 352.498 moveto
+317 354.498 lineto
+450.68 354.498 lineto
+450.68 352.498 lineto
+closepath
+gsave eofill grestore
+newpath
+448.68 333.138 moveto
+448.68 352.498 lineto
+450.68 354.498 lineto
+450.68 331.138 lineto
+315 331.138 lineto
+317 333.138 lineto
+448.68 333.138 lineto
+closepath
+0.443137 0.443137 0.443137 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+319 338.018(Save hoc code in file) 4 446.68 ws
+newpath
+0 699.84 moveto
+0 719.84 lineto
+699.84 719.84 lineto
+699.84 699.84 lineto
+closepath
+0.8 0.8 0.8 setrgbcolor
+gsave eofill grestore
+gsave
+newpath
+20 699.84 moveto
+20 719.84 lineto
+699.84 719.84 lineto
+699.84 699.84 lineto
+closepath
+eoclip
+0 0 0 setrgbcolor
+315.84 704.72(CellBuild[0]) 12 384 as
+grestore
+newpath
+0 321.48 moveto
+0 722.84 lineto
+-3 722.84 lineto
+-3 321.48 lineto
+closepath
+0.698039 0.698039 0.698039 setrgbcolor
+gsave eofill grestore
+newpath
+699.84 321.48 moveto
+699.84 722.84 lineto
+702.84 722.84 lineto
+702.84 321.48 lineto
+closepath
+gsave eofill grestore
+newpath
+0 324.48 moveto
+0 321.48 lineto
+699.84 321.48 lineto
+699.84 324.48 lineto
+closepath
+gsave eofill grestore
+newpath
+0 719.84 moveto
+0 722.84 lineto
+699.84 722.84 lineto
+699.84 719.84 lineto
+closepath
+gsave eofill grestore
+newpath
+-3 321.48 moveto
+-3 722.84 lineto
+702.84 722.84 lineto
+702.84 321.48 lineto
+closepath
+0.101961 0.101961 0.101961 setrgbcolor
+1 setlinewidth
+[] 0 setdash
+gsave stroke grestore
+newpath
+0 701.84 moveto
+0 719.84 lineto
+18 719.84 lineto
+18 701.84 lineto
+closepath
+0.898039 0.898039 0.898039 setrgbcolor
+gsave stroke grestore
+newpath
+4 705.84 moveto
+14 715.84 lineto
+gsave stroke grestore
+newpath
+4 715.84 moveto
+14 705.84 lineto
+gsave stroke grestore
+grestore
+%% End BoundingBox
+%% Print & File Window Manager
+%% BoundingBox: 1.8 781.32 627 984.92
+%% \begin{picture}(625.2, 200.6)
+gsave
+[1 0 0 1 4.8 342.72] concat
+gsave
+gsave
+[1.00032 0 0 1.00032 7.00162 445.72] concat
+grestore
+grestore
+gsave
+gsave
+[1.00033 0 0 1.00033 317.102 445.72] concat
+grestore
+grestore
+newpath
+0 595.84 moveto
+0 619.2 lineto
+1 619.2 lineto
+1 595.84 lineto
+closepath
+0.0980392 0.0980392 0.0980392 setrgbcolor
+gsave eofill grestore
+newpath
+1 618.2 moveto
+1 619.2 lineto
+619.2 619.2 lineto
+619.2 618.2 lineto
+closepath
+gsave eofill grestore
+newpath
+618.2 596.84 moveto
+618.2 618.2 lineto
+619.2 619.2 lineto
+619.2 595.84 lineto
+0 595.84 lineto
+1 596.84 lineto
+618.2 596.84 lineto
+closepath
+gsave eofill grestore
+newpath
+1 596.84 moveto
+1 618.2 lineto
+618.2 618.2 lineto
+618.2 596.84 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+newpath
+1 596.84 moveto
+1 618.2 lineto
+2 618.2 lineto
+2 596.84 lineto
+closepath
+0.898039 0.898039 0.898039 setrgbcolor
+gsave eofill grestore
+newpath
+2 617.2 moveto
+2 618.2 lineto
+618.2 618.2 lineto
+618.2 617.2 lineto
+closepath
+gsave eofill grestore
+newpath
+617.2 597.84 moveto
+617.2 617.2 lineto
+618.2 618.2 lineto
+618.2 596.84 lineto
+1 596.84 lineto
+2 597.84 lineto
+617.2 597.84 lineto
+closepath
+0.443137 0.443137 0.443137 setrgbcolor
+gsave eofill grestore
+newpath
+2 597.84 moveto
+2 617.2 lineto
+225.467 617.2 lineto
+225.467 597.84 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+14 /Helvetica sf
+8 602.72(Close) 5 43.52 as
+newpath
+225.467 597.84 moveto
+225.467 617.2 lineto
+441.253 617.2 lineto
+441.253 597.84 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+231.467 602.72(Hide) 4 259.307 as
+newpath
+0 441.6 moveto
+0 595.84 lineto
+619.2 595.84 lineto
+619.2 441.6 lineto
+closepath
+0.807843 0.996078 0.996078 setrgbcolor
+gsave eofill grestore
+newpath
+0 569.879 moveto
+0 595.84 lineto
+1 595.84 lineto
+1 569.879 lineto
+closepath
+0.0980392 0.0980392 0.0980392 setrgbcolor
+gsave eofill grestore
+newpath
+1 594.84 moveto
+1 595.84 lineto
+619.2 595.84 lineto
+619.2 594.84 lineto
+closepath
+gsave eofill grestore
+newpath
+618.2 570.879 moveto
+618.2 594.84 lineto
+619.2 595.84 lineto
+619.2 569.879 lineto
+0 569.879 lineto
+1 570.879 lineto
+618.2 570.879 lineto
+closepath
+gsave eofill grestore
+newpath
+1 570.879 moveto
+1 594.84 lineto
+618.2 594.84 lineto
+618.2 570.879 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+newpath
+1 570.879 moveto
+1 594.84 lineto
+2 594.84 lineto
+2 570.879 lineto
+closepath
+0.898039 0.898039 0.898039 setrgbcolor
+gsave eofill grestore
+newpath
+2 593.84 moveto
+2 594.84 lineto
+618.2 594.84 lineto
+618.2 593.84 lineto
+closepath
+gsave eofill grestore
+newpath
+617.2 571.879 moveto
+617.2 593.84 lineto
+618.2 594.84 lineto
+618.2 570.879 lineto
+1 570.879 lineto
+2 571.879 lineto
+617.2 571.879 lineto
+closepath
+0.443137 0.443137 0.443137 setrgbcolor
+gsave eofill grestore
+newpath
+2 571.879 moveto
+2 591.239 lineto
+46.64 591.239 lineto
+46.64 571.879 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+14 /Helvetica-Bold-Oblique sf
+8 576.759(Print) 5 40.64 as
+newpath
+46.64 571.879 moveto
+46.64 591.239 lineto
+111.44 591.239 lineto
+111.44 571.879 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+52.64 576.759(Session) 7 105.44 as
+newpath
+111.44 571.984 moveto
+111.44 593.84 lineto
+171.776 593.84 lineto
+171.776 571.984 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+newpath
+113.44 584.352 moveto
+120.928 591.84 lineto
+128.416 584.352 lineto
+120.928 576.864 lineto
+closepath
+0.0980392 0.0980392 0.0980392 setrgbcolor
+gsave eofill grestore
+newpath
+113.44 584.352 moveto
+120.928 576.864 lineto
+128.416 584.352 lineto
+126.416 584.352 lineto
+120.928 578.864 lineto
+115.44 584.352 lineto
+closepath
+0.815686 0.815686 0.815686 setrgbcolor
+gsave eofill grestore
+newpath
+113.44 584.352 moveto
+120.928 591.84 lineto
+128.416 584.352 lineto
+126.416 584.352 lineto
+120.928 589.84 lineto
+115.44 584.352 lineto
+closepath
+0.333333 0.333333 0.333333 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+130.416 576.864(select) 6 169.776 as
+newpath
+171.776 571.984 moveto
+171.776 593.84 lineto
+227.312 593.84 lineto
+227.312 571.984 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+190.752 576.864(move) 4 225.312 as
+newpath
+227.312 571.984 moveto
+227.312 593.84 lineto
+286.688 593.84 lineto
+286.688 571.984 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+0 0 0 setrgbcolor
+246.288 576.864(resize) 6 284.688 as
+newpath
+0 441.6 moveto
+0 569.879 lineto
+1 569.879 lineto
+1 441.6 lineto
+closepath
+0.333333 0.333333 0.333333 setrgbcolor
+gsave eofill grestore
+newpath
+1 568.879 moveto
+1 569.879 lineto
+619.2 569.879 lineto
+619.2 568.879 lineto
+closepath
+gsave eofill grestore
+newpath
+618.2 442.6 moveto
+618.2 568.879 lineto
+619.2 569.879 lineto
+619.2 441.6 lineto
+0 441.6 lineto
+1 442.6 lineto
+618.2 442.6 lineto
+closepath
+0.898039 0.898039 0.898039 setrgbcolor
+gsave eofill grestore
+newpath
+1 442.6 moveto
+1 568.879 lineto
+618.2 568.879 lineto
+618.2 442.6 lineto
+closepath
+0.662745 0.662745 0.662745 setrgbcolor
+gsave eofill grestore
+newpath
+1 442.6 moveto
+1 568.879 lineto
+2 568.879 lineto
+2 442.6 lineto
+closepath
+0.223529 0.223529 0.223529 setrgbcolor
+gsave eofill grestore
+newpath
+2 567.879 moveto
+2 568.879 lineto
+618.2 568.879 lineto
+618.2 567.879 lineto
+closepath
+gsave eofill grestore
+newpath
+617.2 443.6 moveto
+617.2 567.879 lineto
+618.2 568.879 lineto
+618.2 442.6 lineto
+1 442.6 lineto
+2 443.6 lineto
+617.2 443.6 lineto
+closepath
+0.815686 0.815686 0.815686 setrgbcolor
+gsave eofill grestore
+gsave
+[1.00032 0 0 1.00032 7.00162 445.72] concat
+gsave
+newpath
+-5 -2 moveto
+-5 122 lineto
+305 122 lineto
+305 -2 lineto
+closepath
+eoclip
+%% 
+0.999677 setlinewidth
+newpath
+-5 -2 moveto
+-5 118 lineto
+295 118 lineto
+295 -2 lineto
+closepath
+1 0 0 setrgbcolor
+0 setlinewidth
+[] 0 setdash
+gsave stroke grestore
+newpath
+0.585938 110.977 moveto
+0.585938 117.422 lineto
+43.2422 117.422 lineto
+43.2422 110.977 lineto
+closepath
+0 0 1 setrgbcolor
+1 setlinewidth
+[] 0 setdash
+gsave stroke grestore
+0 0 0 setrgbcolor
+14 /Helvetica sf
+0.585938 110.977(0) 1 8.26594 as
+newpath
+0.585938 95.7422 moveto
+0.585938 117.422 lineto
+76.1719 117.422 lineto
+76.1719 95.7422 lineto
+closepath
+0 0 1 setrgbcolor
+gsave stroke grestore
+0 0 0 setrgbcolor
+0.585938 95.7422(1) 1 8.26594 as
+newpath
+1.05469 1.28906 moveto
+1.05469 47.1094 lineto
+86.4844 47.1094 lineto
+86.4844 1.28906 lineto
+closepath
+0 0 1 setrgbcolor
+gsave stroke grestore
+0 0 0 setrgbcolor
+1.05469 1.28906(2) 1 8.73469 as
+grestore
+grestore
+gsave
+[1.00033 0 0 1.00033 317.102 445.72] concat
+gsave
+newpath
+-5 -2 moveto
+-5 122 lineto
+300 122 lineto
+300 -2 lineto
+closepath
+eoclip
+%% 
+0.999672 setlinewidth
+newpath
+-5 -2 moveto
+-5 94 lineto
+115 94 lineto
+115 -2 lineto
+closepath
+1 0 0 setrgbcolor
+0 setlinewidth
+[] 0 setdash
+gsave stroke grestore
+grestore
+grestore
+newpath
+0 619.2 moveto
+0 639.2 lineto
+619.2 639.2 lineto
+619.2 619.2 lineto
+closepath
+0.8 0.8 0.8 setrgbcolor
+gsave eofill grestore
+gsave
+newpath
+20 619.2 moveto
+20 639.2 lineto
+619.2 639.2 lineto
+619.2 619.2 lineto
+closepath
+eoclip
+0 0 0 setrgbcolor
+14 /Helvetica sf
+219.36 624.08(Print & File Window Manager) 4 399.84 ws
+grestore
+newpath
+0 438.6 moveto
+0 642.2 lineto
+-3 642.2 lineto
+-3 438.6 lineto
+closepath
+0.698039 0.698039 0.698039 setrgbcolor
+gsave eofill grestore
+newpath
+619.2 438.6 moveto
+619.2 642.2 lineto
+622.2 642.2 lineto
+622.2 438.6 lineto
+closepath
+gsave eofill grestore
+newpath
+0 441.6 moveto
+0 438.6 lineto
+619.2 438.6 lineto
+619.2 441.6 lineto
+closepath
+gsave eofill grestore
+newpath
+0 639.2 moveto
+0 642.2 lineto
+619.2 642.2 lineto
+619.2 639.2 lineto
+closepath
+gsave eofill grestore
+newpath
+-3 438.6 moveto
+-3 642.2 lineto
+622.2 642.2 lineto
+622.2 438.6 lineto
+closepath
+0.101961 0.101961 0.101961 setrgbcolor
+1 setlinewidth
+[] 0 setdash
+gsave stroke grestore
+newpath
+0 621.2 moveto
+0 639.2 lineto
+18 639.2 lineto
+18 621.2 lineto
+closepath
+0.898039 0.898039 0.898039 setrgbcolor
+gsave stroke grestore
+newpath
+4 625.2 moveto
+14 635.2 lineto
+gsave stroke grestore
+newpath
+4 635.2 moveto
+14 625.2 lineto
+gsave stroke grestore
+grestore
+%% End BoundingBox
+%% Begin cursor
+gsave
+[0.866025 0.5 -0.5 0.866025 94.08 154.56] concat
+newpath
+0 0 moveto
+8 -14 lineto
+2 -12 lineto
+2 -20 lineto
+-2 -20 lineto
+-2 -12 lineto
+-8 -14 lineto
+closepath
+0 0 0 setrgbcolor
+gsave eofill grestore
+0.807843 0.996078 0.996078 setrgbcolor
+0 setlinewidth
+[] 0 setdash
+gsave stroke grestore
+grestore
+%% End cursor
+%%Trailer
+end restore
+%%Pages: 0
+showpage

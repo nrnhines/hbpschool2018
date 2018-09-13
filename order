@@ -3,6 +3,19 @@ domain[1-3].id
 spikecoupled*.id
 concept.ps
 
-
 organize[34].id
+
+netconstruct1.id
+
+cellbild1.ps
+16_style_net*.ps
+
+recon[1-2].ps
+
+set2.id
+set3.id
+
+allgather.id
+multisend2.id
+exchange_perf.id
 
