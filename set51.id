@@ -2,7 +2,7 @@
 %%Creator: idraw
 %%DocumentFonts: Times-Bold
 %%Pages: 1
-%%BoundingBox: 0 158 709 563
+%%BoundingBox: 21 153 709 563
 %%EndComments
 
 %%BeginIdrawPrologue
@@ -78,7 +78,7 @@ end
 %%EndIdrawPrologue
 
 /arrowHeight 11 def
-/arrowWidth 6 def
+/arrowWidth 5 def
 
 /IdrawDict 51 dict def
 IdrawDict begin
@@ -833,7 +833,7 @@ Begin %I Text
 %I f -*-times-bold-r-normal-*-14-*-*-*-*-*-*-*
 Times-Bold 14 SetF
 %I t
-[ 2.5 0 0 2.5 4.25007 234.25 ] concat
+[ 2.5 0 0 2.5 29.5797 287.724 ] concat
 %I
 [
 (Every spike source \(cell\) must have a global id number.)
@@ -863,6 +863,19 @@ Times-Bold 14 SetF
 %I
 [
 (gid = 9)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-times-bold-r-normal-*-14-*-*-*-*-*-*-*
+Times-Bold 14 SetF
+%I t
+[ 2.5 0 0 2.5 42.2703 228.178 ] concat
+%I
+[
+(gids = range\(pc.id\(\), ncell, pc.nhost\(\)\))
 ] Text
 End
 

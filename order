@@ -12,7 +12,11 @@ cellbild1.ps
 
 recon[1-2].ps
 
-set*.id
+set2.id
+set3.id
+set4.id
+set5*.id
+set8.id
 run0.id
 
 allgather.id

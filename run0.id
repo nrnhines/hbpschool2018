@@ -2,7 +2,7 @@
 %%Creator: idraw
 %%DocumentFonts: Times-Bold
 %%Pages: 1
-%%BoundingBox: 69 69 645 540
+%%BoundingBox: 69 70 632 540
 %%EndComments
 
 %%BeginIdrawPrologue
@@ -78,7 +78,7 @@ end
 %%EndIdrawPrologue
 
 /arrowHeight 11 def
-/arrowWidth 6 def
+/arrowWidth 5 def
 
 /IdrawDict 51 dict def
 IdrawDict begin
@@ -523,21 +523,6 @@ Begin %I Text
 %I f -*-times-bold-r-normal-*-14-*-*-*-*-*-*-*
 Times-Bold 14 SetF
 %I t
-[ 2 0 0 2 135.379 566.609 ] concat
-%I
-[
-(pc.set_maxstep\(10\))
-(stdinit\(\))
-(pc.psolve\(tstop\))
-] Text
-End
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
-%I f -*-times-bold-r-normal-*-14-*-*-*-*-*-*-*
-Times-Bold 14 SetF
-%I t
 [ 2 0 0 2 406.138 385.801 ] concat
 %I
 [
@@ -654,6 +639,21 @@ Times-Bold 14 SetF
 %I
 [
 (must be delivered here)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-times-bold-r-normal-*-14-*-*-*-*-*-*-*
+Times-Bold 14 SetF
+%I t
+[ 2 0 0 2 135.379 566.609 ] concat
+%I
+[
+(pc.set_maxstep\(10\))
+(h.stdinit\(\))
+(pc.psolve\(tstop\))
 ] Text
 End
 
