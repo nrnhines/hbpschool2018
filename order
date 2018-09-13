@@ -17,5 +17,18 @@ set3.id
 
 allgather.id
 multisend2.id
-exchange_perf.id
+spkexchange_perf.id
+
+
+parcompdb.id
+
+database1.id
+parallel1.id
+computational1.id
+pattern1.id
+
+exchange2z.id
+2glom_dend.id
+1mitral_gran.id
+exchange[4-5]*.id
 
