@@ -547,19 +547,6 @@ End
 Begin %I Text
 %I cfg Black
 0 0 0 SetCFg
-%I f -*-times-medium-r-normal-*-12-*-*-*-*-*-*-*
-Times-Roman 12 SetF
-%I t
-[ 3 0 0 3 37.9213 488.055 ] concat
-%I
-[
-(Likely identical to mpi4py.MPI  comm.alltoall\(src, dest\).)
-] Text
-End
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
@@ -1020,6 +1007,19 @@ Begin %I Poly
 491 218
 427 218
 7 Poly
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-times-medium-r-normal-*-12-*-*-*-*-*-*-*
+Times-Roman 12 SetF
+%I t
+[ 3 0 0 3 37.9213 488.055 ] concat
+%I
+[
+(Identical to mpi4py.MPI  comm.alltoall\(src, dest\).)
+] Text
 End
 
 End %I eop

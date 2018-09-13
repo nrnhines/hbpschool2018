@@ -2,7 +2,7 @@
 %%Creator: idraw
 %%DocumentFonts: Helvetica Times-Roman
 %%Pages: 1
-%%BoundingBox: 27 120 686 555
+%%BoundingBox: 27 120 686 421
 %%EndComments
 
 %%BeginIdrawPrologue
@@ -77,7 +77,7 @@ end
 
 %%EndIdrawPrologue
 
-/arrowHeight 9 def
+/arrowHeight 11 def
 /arrowWidth 5 def
 
 /IdrawDict 52 dict def
@@ -504,32 +504,6 @@ Begin
 %I t
 [ 0.747198 0 0 0.747198 0 0 ] concat
 /originalCTM matrix currentmatrix def
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
-%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
-Helvetica 12 SetF
-%I t
-[ 3.6 0 0 3.6 37.9213 731.663 ] concat
-%I
-[
-(Example: MPI_ISend/Recv spike exchange)
-] Text
-End
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
-%I f -*-times-medium-r-normal-*-12-*-*-*-*-*-*-*
-Times-Roman 12 SetF
-%I t
-[ 3 0 0 3 37.9213 658.701 ] concat
-%I
-[
-(Cells do not know which ranks are interested in its spikes.)
-] Text
-End
 
 Begin %I Text
 %I cfg Black
