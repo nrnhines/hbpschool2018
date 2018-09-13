@@ -885,10 +885,12 @@ Begin %I Text
 %I f -*-times-bold-r-normal-*-14-*-*-*-*-*-*-*
 Times-Bold 14 SetF
 %I t
-[ 2.5 0 0 2.5 42.2703 189.74 ] concat
+[ 2.5 0 0 2.5 42.2703 151.301 ] concat
 %I
 [
-(cells = {\(gid, Cell\(\)\) for gid in gids})
+(for gid in cells:)
+(    set_gid2node\(gid, pc.id\(\)\))
+(    pc.cell\(gid, h.NetCon\(cell[gid].axon\(1\)._ref_v, None\)\))
 ] Text
 End
 
@@ -898,12 +900,10 @@ Begin %I Text
 %I f -*-times-bold-r-normal-*-14-*-*-*-*-*-*-*
 Times-Bold 14 SetF
 %I t
-[ 2.5 0 0 2.5 42.2703 151.301 ] concat
+[ 2.5 0 0 2.5 42.2703 189.74 ] concat
 %I
 [
-(for gid in cells:)
-(    set_gid2node\(gid, pc.id\(\)\))
-(    pc.cell\(gid, h.NetCon\(cell[gid].axon\(1\)._ref_v, None\)\))
+(cells = {gid: Cell\(\) for gid in gids})
 ] Text
 End
 
