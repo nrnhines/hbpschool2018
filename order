@@ -12,8 +12,8 @@ cellbild1.ps
 
 recon[1-2].ps
 
-set2.id
-set3.id
+set*.id
+run0.id
 
 allgather.id
 multisend2.id
